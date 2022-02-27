@@ -73,7 +73,7 @@ type Profile2 = typeof myProfile;
 //下記のままだと変数numberUnknownの型がわからないから足し算できないかもしれないと判断される
 let numberUnknown: unknown = 0;
 // let sumUnknown = numberUnknown + 10;←エラーになる
-//typeofを使って特定の型であることを確認しながらコードを実行させることを"型ガード"という
+//typeofを使って特定の型であることを確認しながらコードを実行させることを"タイプガード"という
 if (typeof numberUnknown === "number") {
   let sumUnknown = numberUnknown + 10;
 }
