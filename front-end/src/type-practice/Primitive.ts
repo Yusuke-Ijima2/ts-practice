@@ -4,14 +4,13 @@ export {};
 //boolean型
 let bool: boolean = true;
 
-//nunber型
+//number型
 let number: number = 0;
 
 //string型
 let string: string = "string";
 
 //Array型
-//型推論便利
 let arr1: number[] = [1, 2, 3];
 let arr2: string[] = ["A", "B", "C"];
 //配列の中の方が混合している場合
@@ -92,7 +91,7 @@ const myprofile: Name & Age = {
   age: 20,
 };
 
-// /共用体型(union型)
+//共用体型(union型)
 let value: number | string = 0;
 value = "hoge";
 
